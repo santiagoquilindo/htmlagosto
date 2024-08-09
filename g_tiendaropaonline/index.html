@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Online</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, nav, section, article, footer {
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .item {
+            flex: 1 1 100%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Media queries para dispositivos móviles */
+        @media (max-width: 600px) {
+            nav a {
+                padding: 10px;
+                display: block;
+                text-align: center;
+            }
+            .item {
+                margin: 5px 0;
+                padding: 10px;
+            }
+        }
+
+        /* Media queries para tabletas */
+        @media (min-width: 601px) and (max-width: 1024px) {
+            .item {
+                flex: 1 1 48%;
+                margin: 10px;
+            }
+            nav {
+                text-align: left;
+            }
+            nav a {
+                padding: 10px 15px;
+                display: inline-block;
+            }
+        }
+
+        /* Media queries para computadoras de escritorio */
+        @media (min-width: 1025px) {
+            .item {
+                flex: 1 1 30%;
+                margin: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tienda de Ropa Online</h1>
+    <p>La mejor moda al mejor precio</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section class="container">
+    <article class="item">
+        <h2>zapatillas Nike</h2>
+        <img src="zapatillas.jpeg" alt="Producto 1">
+        <p>Nike Air Max 270
+
+            Las Nike Air Max 270 combinan un diseño moderno con comodidad excepcional. Equipadas con una amortiguación Max Air en el talón, estas zapatillas ofrecen una pisada suave y un excelente soporte durante todo el día. Su parte superior de malla transpirable asegura un ajuste ligero y flexible, mientras que la suela de goma proporciona tracción y durabilidad. Perfectas para cualquier ocasión, desde el gimnasio hasta la vida diaria.</p>
+    </article>
+    <article class="item">
+        <h2>camiseta america de cali</h2>
+        <img src="camiseta.jpeg" alt="Producto 2">
+        <p>Camiseta América de Cali
+
+            Muestra tu pasión por el América de Cali con esta camiseta oficial. Confeccionada en algodón suave y transpirable, presenta el icónico escudo del equipo en el pecho y detalles en rojo y blanco. Ideal para los hinchas que quieren lucir con orgullo los colores de su equipo tanto en el estadio como en el día a día.</p>
+    </article>
+    <article class="item">
+        <h2>camiseta mancity</h2>
+        <img src="camisteados.jpeg" alt="Producto 3">
+        <p>Camiseta Manchester City
+
+            Demuestra tu apoyo al Manchester City con esta camiseta oficial. Confeccionada en tejido ligero y transpirable, presenta el distintivo escudo del club y colores celeste y blanco. Perfecta para los fanáticos que desean celebrar cada victoria con estilo y comodidad, ya sea en el campo de juego o en la calle.</p>
+    </article>
+    <article class="item">
+        <h2>zapatillas adidas</h2>
+        <img src="zapat.jpeg" alt="Producto 4">
+        <p>Zapatillas Adidas Ultraboost
+
+            Las Adidas Ultraboost combinan tecnología avanzada con un diseño elegante. Con una amortiguación Boost en toda la entresuela, ofrecen una sensación de confort y energía en cada paso. La parte superior de Primeknit se ajusta como un guante, brindando soporte y transpirabilidad, mientras que la suela de goma Continental garantiza tracción y durabilidad. Perfectas para correr o para un estilo casual diario.</p>
+    </article>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tienda de Ropa Online. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

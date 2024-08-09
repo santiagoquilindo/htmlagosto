@@ -1,0 +1,33 @@
+/* Estilos para la barra de navegación vertical */
+.navbar-vertical {
+    background-color: #ff5722;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.navbar-vertical ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-vertical li {
+    padding: 10px;
+}
+
+.navbar-vertical a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.navbar-vertical a:hover {
+    color: #ffe082;
+}

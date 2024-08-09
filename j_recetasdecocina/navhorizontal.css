@@ -1,0 +1,29 @@
+/* Estilos para la barra de navegación horizontal */
+.navbar-horizontal {
+    background-color: #ff5722;
+    overflow: hidden;
+}
+
+.navbar-horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-horizontal li {
+    padding: 14px 20px;
+}
+
+.navbar-horizontal a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navbar-horizontal a:hover {
+    color: #ffe082;
+}
